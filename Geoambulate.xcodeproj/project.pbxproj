@@ -14,6 +14,8 @@
 		27D685AE1992F9D800DC3476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D685AD1992F9D800DC3476 /* Images.xcassets */; };
 		27D685BA1992F9D800DC3476 /* GeoambulateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685B91992F9D800DC3476 /* GeoambulateTests.m */; };
 		27D685C41992F9DD00DC3476 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D685C31992F9DD00DC3476 /* MapKit.framework */; };
+		27D685CB1993C49C00DC3476 /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685CA1993C49C00DC3476 /* Goal.m */; };
+		27D685CF1993E65400DC3476 /* GoalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685CE1993E65400DC3476 /* GoalTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		27D685B81992F9D800DC3476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D685B91992F9D800DC3476 /* GeoambulateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoambulateTests.m; sourceTree = "<group>"; };
 		27D685C31992F9DD00DC3476 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27D685C91993C49C00DC3476 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
+		27D685CA1993C49C00DC3476 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
+		27D685CE1993E65400DC3476 /* GoalTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,8 @@
 				27D685A51992F9D800DC3476 /* AppDelegate.m */,
 				27D685A71992F9D800DC3476 /* ViewController.h */,
 				27D685A81992F9D800DC3476 /* ViewController.m */,
+				27D685C91993C49C00DC3476 /* Goal.h */,
+				27D685CA1993C49C00DC3476 /* Goal.m */,
 				27D685AA1992F9D800DC3476 /* Main.storyboard */,
 				27D685AD1992F9D800DC3476 /* Images.xcassets */,
 				27D685A01992F9D800DC3476 /* Supporting Files */,
@@ -106,6 +113,7 @@
 		27D685B61992F9D800DC3476 /* GeoambulateTests */ = {
 			isa = PBXGroup;
 			children = (
+				27D685CE1993E65400DC3476 /* GoalTests.m */,
 				27D685B91992F9D800DC3476 /* GeoambulateTests.m */,
 				27D685B71992F9D800DC3476 /* Supporting Files */,
 			);
@@ -232,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D685CB1993C49C00DC3476 /* Goal.m in Sources */,
 				27D685A91992F9D800DC3476 /* ViewController.m in Sources */,
 				27D685A61992F9D800DC3476 /* AppDelegate.m in Sources */,
 				27D685A31992F9D800DC3476 /* main.m in Sources */,
@@ -242,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D685CF1993E65400DC3476 /* GoalTests.m in Sources */,
 				27D685BA1992F9D800DC3476 /* GeoambulateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +431,7 @@
 				27D685BF1992F9D800DC3476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27D685C01992F9D800DC3476 /* Build configuration list for PBXNativeTarget "GeoambulateTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +440,7 @@
 				27D685C21992F9D800DC3476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
