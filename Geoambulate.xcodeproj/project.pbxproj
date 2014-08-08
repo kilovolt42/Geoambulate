@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27350B4A1994655C00449E28 /* GeodesicPolylineSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27350B491994655C00449E28 /* GeodesicPolylineSplitter.m */; };
 		27D685A31992F9D800DC3476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685A21992F9D800DC3476 /* main.m */; };
 		27D685A61992F9D800DC3476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685A51992F9D800DC3476 /* AppDelegate.m */; };
 		27D685A91992F9D800DC3476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D685A81992F9D800DC3476 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27350B481994655C00449E28 /* GeodesicPolylineSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeodesicPolylineSplitter.h; sourceTree = "<group>"; };
+		27350B491994655C00449E28 /* GeodesicPolylineSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeodesicPolylineSplitter.m; sourceTree = "<group>"; };
 		27D6859D1992F9D800DC3476 /* Geoambulate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geoambulate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D685A11992F9D800DC3476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D685A21992F9D800DC3476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				27D685A81992F9D800DC3476 /* ViewController.m */,
 				27D685C91993C49C00DC3476 /* Goal.h */,
 				27D685CA1993C49C00DC3476 /* Goal.m */,
+				27350B481994655C00449E28 /* GeodesicPolylineSplitter.h */,
+				27350B491994655C00449E28 /* GeodesicPolylineSplitter.m */,
 				27D685AA1992F9D800DC3476 /* Main.storyboard */,
 				27D685AD1992F9D800DC3476 /* Images.xcassets */,
 				27D685A01992F9D800DC3476 /* Supporting Files */,
@@ -243,6 +248,7 @@
 				27D685CB1993C49C00DC3476 /* Goal.m in Sources */,
 				27D685A91992F9D800DC3476 /* ViewController.m in Sources */,
 				27D685A61992F9D800DC3476 /* AppDelegate.m in Sources */,
+				27350B4A1994655C00449E28 /* GeodesicPolylineSplitter.m in Sources */,
 				27D685A31992F9D800DC3476 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
